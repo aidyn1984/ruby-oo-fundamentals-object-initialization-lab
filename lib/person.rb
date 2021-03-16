@@ -1,18 +1,22 @@
-#require 'pry'
+# require 'pry'
 
-class Person
+class Person 
+
     def initialize(name)
         @name = name
     end
-    def name= (name)
-        @name = name
+
+    def name=(persons_name)
+        @name = persons_name
     end
 
     def name
-        @name
+        @dogs_name
     end
-
 end
 
-#binding.pry
-#0
+
+
+john = Person.new("John")
+
+# binding.pry
